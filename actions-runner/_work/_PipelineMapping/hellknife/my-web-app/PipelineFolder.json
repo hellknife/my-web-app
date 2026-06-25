@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "hellknife/my-web-app",
+  "pipelineDirectory": "my-web-app",
+  "workspaceDirectory": "my-web-app\\my-web-app",
+  "repositories": {
+    "hellknife/my-web-app": {
+      "repositoryPath": "my-web-app\\my-web-app",
+      "lastRunOn": "06/25/2026 07:33:28 +04:00"
+    }
+  },
+  "lastRunOn": "06/25/2026 07:33:28 +04:00"
+}
