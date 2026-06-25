@@ -5,3 +5,7 @@ actions-runner/
 *.zip
 *.exe
 *.dll
+actions-runner/_work/
+*.pid
+*.lock
+*.session
