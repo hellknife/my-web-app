@@ -12,34 +12,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: DIAGNOSTIC - Show current directory
-        shell: pwsh
-        run: |
-          Write-Host "=== Current directory ==="
-          Get-Location
-          Write-Host "=== Files in current directory ==="
-          Get-ChildItem -Force
-
-      - name: DIAGNOSTIC - Check if index.html exists
-        shell: pwsh
-        run: |
-          Write-Host "=== Checking for index.html ==="
-          if (Test-Path "index.html") {
-              Write-Host "✅ index.html found in current directory"
-          } else {
-              Write-Host "❌ index.html NOT found in current directory"
-          }
-          if (Test-Path "C:\webroot\index.html") {
-              Write-Host "✅ index.html found in C:\webroot"
-          } else {
-              Write-Host "❌ index.html NOT found in C:\webroot"
-          }
-
       - name: Run test script
-        shell: pwsh
+        shell: powershell
         run: ./test.ps1
 
       - name: Deploy to webroot
-        shell: pwsh
+        shell: powershell
         run: |
           Copy-Item -Path ./* -Destination C:\webroot -Recurse -Force

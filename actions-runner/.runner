@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 3,
-  "agentName": "HELL_HONOR",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelinesghubeus5.actions.githubusercontent.com/EAYldGGSz5J1CMwBjzdNjIMLqQdSzutseK4rZmq3Qjq895aKlg/",
-  "gitHubUrl": "https://github.com/hellknife/my-web-app",
-  "workFolder": "_work"
-}
