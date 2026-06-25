@@ -1,0 +1,7 @@
+actions-runner/
+.github/
+*.log
+*.tmp
+*.zip
+*.exe
+*.dll
